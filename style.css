@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player-container {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.music-info {
+    margin-bottom: 20px;
+}
+
+#track-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#artist-name {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.controls button {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #1ed760;
+}
+
+.volume-container, .progress-container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
